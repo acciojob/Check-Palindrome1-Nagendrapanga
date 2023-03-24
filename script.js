@@ -1,12 +1,13 @@
 // complete the given function
 
 function palindrome(str){
-	var start=str(0);
+	var start=0
 	var end=str.length-1;
+	str = str.toLowerCase();
 	while(start<=end){
 		if(str.charAt(start)===str.chartAt(end)){
 			start++;
-			end--
+			end--;
 		}
 		else{
 			return false;
