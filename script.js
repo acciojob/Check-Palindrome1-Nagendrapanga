@@ -1,8 +1,7 @@
 // complete the given function
 
 function palindrome(str){
-	var start=0
-	var end=str.length-1;
+	let start=0,end=str.length-1;
 	str = str.toLowerCase();
 	while(start<=end){
 		if(str.charAt(start)===str.chartAt(end)){
